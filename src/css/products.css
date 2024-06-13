@@ -1,0 +1,17 @@
+.col
+{
+    display: grid;
+    margin: 10px 0 ;
+}
+
+.container  .categories .btn  {
+    margin: 10px 15px 40px;
+    color: black ;  
+    padding: 10px 5px  ;
+    transition-duration: 0.1s;
+
+    &:hover {
+    transform: scaleX(1.3); 
+    background-color: rgb(216, 18, 18);
+    }
+}
